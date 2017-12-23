@@ -5,7 +5,7 @@ const b = Buffer.from('dadb02020000000000000000000000000000000000000000000000000
 const c = Buffer.from('7e7f0101ffffffff3c000000d117cf015ccf7f46ca5118fe34db43100807000000f9060000971e0000517f01000000000000000000000000000b4c415454452d49442d3032000000001806000026060000710000000b0000000d0a', 'hex')
 
 const BResult = parsers.NB_IOT.parse(b)
-const CResult = parsers.CMMC.parse(c)
-
 console.log(BResult)
+
+const CResult = parsers.CMMC.parse(c)
 console.log(CResult)
